@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Alexlloydwhite/jest-tdd/issues"
   },
-  "homepage": "https://github.com/Alexlloydwhite/jest-tdd#readme"
+  "homepage": "https://github.com/Alexlloydwhite/jest-tdd#readme",
+  "devDependencies": {
+    "jest": "^27.0.6"
+  }
 }
