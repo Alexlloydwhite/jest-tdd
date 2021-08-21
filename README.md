@@ -1,4 +1,4 @@
-# jest-tdd
+# Test Driven Development With Jest
 
 ## Description
 
