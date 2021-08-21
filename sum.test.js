@@ -47,4 +47,13 @@ describe("strings", () => {
   });
 });
 
-
+describe("arrays", () => {
+  const shoppingLists = [
+    "diapers",
+    "kleenex",
+    "trash bags",
+    "paper towels",
+    "milk",
+  ];
+  expect(shoppingLists).toContain('milk');
+});
