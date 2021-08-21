@@ -55,5 +55,15 @@ describe("arrays", () => {
     "paper towels",
     "milk",
   ];
-  expect(shoppingLists).toContain('milk');
+  expect(shoppingLists).toContain("milk");
+});
+
+function compileAndroidCode() {
+  throw new Error("you are using the wrong JDK");
+}
+
+describe("exceptions", () => {
+  it("compiling android goes as expected", () => {
+    expect(() => compileAndroidCode()).toThrow("you are using the wrong JDK");
+  });
 });
