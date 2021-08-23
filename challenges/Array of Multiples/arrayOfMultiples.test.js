@@ -13,6 +13,6 @@ describe("fn takes in number and length arguments and returns of array of multip
 
   it("Should pass test array", () => {
     const result = arrayOfMultiples(7, 5);
-    expect(result).toBe([7, 14, 21, 28, 35]);
+    expect(result).toEqual([7, 14, 21, 28, 35]);
   });
 });
