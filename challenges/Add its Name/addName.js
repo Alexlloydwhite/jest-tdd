@@ -1,9 +1,5 @@
 const addName = (obj, name, value) => {
-  let newObj = {
-    ...obj,
-    [name]: value,
-  };
-  return newObj;
+  return { ...obj, [name]: value };
 };
 
 module.exports = addName;
