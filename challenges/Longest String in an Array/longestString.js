@@ -1,5 +1,13 @@
 const longestString = (array) => {
-    return;
-}
+  let longestLength = "";
+
+  for (let i = 0; i < array.length; i++) {
+    if (array[i].length > longestLength.length) {
+      longestLength = array[i];
+    }
+  }
+
+  return longestLength;
+};
 
 module.exports = longestString;
