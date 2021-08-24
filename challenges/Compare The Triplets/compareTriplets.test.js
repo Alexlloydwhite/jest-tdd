@@ -10,4 +10,9 @@ describe("compare input arrays and return array containing score", () => {
     const result = compareTriplets([5, 6, 7], [3, 6, 10]);
     expect(result).toEqual([1, 1]);
   });
+
+  it("should pass test case 2", () => {
+    const result = compareTriplets([17, 28, 30], [99, 16, 8]);
+    expect(result).toEqual([2, 1]);
+  });
 });
