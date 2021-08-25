@@ -2,7 +2,7 @@
 
 ## Description
 
-Code exercises and documentation for Jest testing, with a focus on TDD approach
+Code challenges (HackerRank) and documentation for Jest testing, with a focus on a TDD approach. 
 
 ## Approach
 
